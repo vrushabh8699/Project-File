@@ -1,0 +1,64 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="AcHo.aspx.cs" Inherits="PROJECT1.AcHo1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>AC- HOTELS</title>
+   <style>
+      h1{
+          border:double;
+          border-color:blueviolet;
+          padding-top:10px;
+          padding-bottom:10px;
+          
+       }
+       p{
+           border:solid;
+           
+           margin-right:250px;
+           padding-top:20px;
+           padding-bottom:20px;
+           padding-right:30px;
+           padding-left:30px;
+           height:250px;
+           width:480px;
+           /*float:right; */
+       }
+       #Image1{
+           margin-left:110px;
+       }
+       body{
+           border:solid;
+       }
+       #Button1{
+           float:right;
+           margin-right:800px;
+           margin-top:100px;
+           width:160px;
+           height:70px;
+       }
+   </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <center> <h1> WEL - COME TO FIVE STAR AC HOTELS</h1> </center><br /><br />
+             
+
+            <asp:Image ID="Image1" runat="server" ImageUrl="~/image/vk6.jfif"  Height="310" Width="310"  BorderColor="Maroon" BorderStyle="Groove" />
+            <asp:Button ID="Button1" runat="server" Text="For Booking" />
+            <p style="font-size: large; font-family: Georgia, 'Times New Roman', Times, serif; font-style: normal">Five-star hotels are properties that offer their guests the highest levels of luxury through
+            personalized services, a vast range of amenities, and sophisticated accommodations. Though there
+            is no standard rating system for hotels, properties earn five-star distinction by providing guests
+            experiences that meet or exceed even the highest of expectations for comfort, décor, and luxury.
+            Five-star hotels are properties that offer their guests the highest levels of luxury through
+            personalized services, a vast range of amenities, and sophisticated accommodations. Though there
+            is no standard rating system for hotels, properties earn five-star </p>
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Galxy Hotel</h3>
+
+        </div>
+    </form>
+</body>
+</html>

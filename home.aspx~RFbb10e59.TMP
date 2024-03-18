@@ -1,0 +1,53 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="home.aspx.cs" Inherits="PROJECT1.home" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+
+  <title>home page</title>
+    <style>
+        h1{
+            border:groove;
+            margin-top:50px;
+           padding-top:40px;
+           padding-bottom:40px;
+        }
+        a{
+            background-color:brown;
+            margin-left:700px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form2" runat="server">
+        <div style="border-style: double; border-color: #800000">
+           <center> <h1 style="border-color: #FF00FF; background-color: #7BBDFF">WEL - COME TO FIVE STAR RATING HOTELS</h1>
+            </center>
+            <a><asp:Button ID="Button1" runat="server" Text="HOME" Width="150px" Height="40px" Font-Size="Large" BorderStyle="Solid" BackColor="#80FFE6" />
+            
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
+            <asp:Button ID="Button2" runat="server" Text="ABOUT US" Width="150px" Height="40px" Font-Size="Large" BorderStyle="Solid" BackColor="#80FFE6" OnClick="Button2_Click" />
+          
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          
+            <asp:Button ID="Button3" runat="server" Text="CONTACT US" Width="150px" Height="40px" Font-Size="Large" BorderStyle="Solid" BackColor="#80FFE6"/>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Button ID="Button4" runat="server" Text="LOG OUT" Width="150px" Height="40px" Font-Size="Large" BorderStyle="Solid" BackColor="#80FFE6" /></a><br /><br />
+           <b> <asp:Button ID="Button5" runat="server" Text="Ac Hotels" Font-Size="Large" ForeColor="#CC0099"/>
+            <asp:Button ID="Button6" runat="server" Text="Coc Hotels" />
+            <asp:Button ID="Button7" runat="server" Text="Delux Hotels" /></b>
+            
+        </div>
+    </form>
+</body>
+</html>
+
+
+
+
+
+
+

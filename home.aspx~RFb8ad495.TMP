@@ -1,0 +1,47 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="home.aspx.cs" Inherits="PROJECT1.home" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+
+  <title>home page</title>
+    <style>
+        h1{
+            border:groove;
+            margin-top:50px;
+           padding-top:40px;
+           padding-bottom:40px;
+        }
+        a{
+            background-color:brown;
+            margin-left:870px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form2" runat="server">
+        <div style="border-style: double; border-color: #800000">
+           <center> <h1>WEL - COME TO FIVE STAR RATING HOTELS</h1>
+            </center>
+            <a><asp:Button ID="Button1" runat="server" Text="HOME" Width="150px" Height="40px" Font-Size="Large" BorderStyle="Solid" />
+            
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
+            <asp:Button ID="Button2" runat="server" Text="ABOUT US" Width="150px" Height="40px" Font-Size="Large" BorderStyle="Solid" OnClick="Button2_Click" />
+          
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          
+            <asp:Button ID="Button3" runat="server" Text="CONTACT US" Width="150px" Height="40px" Font-Size="Large" BorderStyle="Solid"/></a>
+        </div>
+    </form>
+</body>
+</html>
+
+
+
+
+
+
+

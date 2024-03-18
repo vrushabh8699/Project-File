@@ -1,0 +1,47 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="PROJECT1.Home" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>LOGIN PAGE</title>
+    <style>
+        h{
+            border:groove;
+            border-color:black;
+            margin-right:330px;
+            margin-left:330px;
+            margin-top:150px;
+            padding-top:70px;
+            padding-bottom:50px;
+            background-color:antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <form id="form2" runat="server">
+        <div>
+            <h><center><asp:Label ID="Label1" runat="server" Text="USER ID" Font-Size="X-Large"></asp:Label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:TextBox ID="TextBox1" runat="server" Width="250px" Height="27px"></asp:TextBox><br /><br />
+            <asp:Label ID="Label2" runat="server" Text="PASSWORD" Font-Size="X-Large"></asp:Label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:TextBox ID="TextBox2" runat="server" Width="250px" Height="27px"></asp:TextBox><br /><br />
+            <asp:Button ID="Button1" runat="server" Text="LOGIN" Width="180px" BackColor="#9BDEFF" BorderColor="Black" BorderStyle="Double" ForeColor="Red" Height="40px" /><br /><br />
+                <asp:LinkButton ID="LinkButton1" runat="server" ForeColor="#990000" OnClick="LinkButton1_Click" Height="40px">NEW RAGISTION...</asp:LinkButton><br /><br />
+            </center></h>
+        </div>
+    </form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
